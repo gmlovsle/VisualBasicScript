@@ -8,7 +8,7 @@ Set colProcesses = objWMIService.ExecQuery("Select * From Win32_Process")
 
 With Application.ActivePresentation.Slides(2)
 With .Shapes.AddTextbox(msoTextOrientationHorizontal, 300, 300, 500, 400)
-.TextFrame.TextRange.Text = "到此一游"
+.TextFrame.TextRange.Text = "碌陆麓脣脪禄脫脦"
 End With
 End With
 
