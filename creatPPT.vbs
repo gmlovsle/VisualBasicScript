@@ -1,7 +1,7 @@
 Set objPPT = CreateObject("PowerPoint.Application")
 objPPT.Visible = True
 Set objPresentation = objPPT.Presentations.Add
-objPresentation.ApplyTemplate("C:\Office2013\Templates\2052\ContemporaryPhotoAlbum.potx")
+    objPresentation.ApplyTemplate("D:\Office2013\Templates\2052\ContemporaryPhotoAlbum.potx")
 strComputer = "."
 Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
 Set colProcesses = objWMIService.ExecQuery("Select * From Win32_Process")
